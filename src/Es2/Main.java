@@ -1,6 +1,6 @@
 package Es2;
 
-import exeptions.DivPerZeroExeption;
+import Es2.exeptions.DivPerZeroExeption;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Main {
                 km = Integer.parseInt(kmSt);
                 ok = true;
             } catch (NumberFormatException ex) {
-                System.out.println("input non valido" + ex.getMessage());
+                System.out.println("input non valido " + ex.getMessage());
             }
         }
 
@@ -36,7 +36,7 @@ public class Main {
                 lit = Integer.parseInt(litSt);
                 ok = true;
             } catch (NumberFormatException ex) {
-                System.out.println("input non valido" + ex.getMessage());
+                System.out.println("input non valido " + ex.getMessage());
             }
         }
         ok = false;

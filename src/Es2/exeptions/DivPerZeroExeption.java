@@ -1,4 +1,4 @@
-package exeptions;
+package Es2.exeptions;
 
 public class DivPerZeroExeption extends Exception {
 
