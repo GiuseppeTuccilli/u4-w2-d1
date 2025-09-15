@@ -15,7 +15,9 @@ public class ContoCorrente {
     }
 
     public void preleva(double x) {
+        nMovimenti++;
         try {
+
             if (saldo - x < 0) {
                 throw new BancaExeption("il conto è in rosso");
             } else {
@@ -25,7 +27,7 @@ public class ContoCorrente {
         } catch (BancaExeption ex) {
             System.out.println(ex.getMessage());
         }
-        nMovimenti++;
+
     }
 
     public double restituisciSalso() {
