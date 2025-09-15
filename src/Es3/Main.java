@@ -13,7 +13,6 @@ public class Main {
 
         String input = "";
         double sum = 0;
-        boolean ok = true;
 
 
         while (true) {
